@@ -2,11 +2,17 @@
 
 RuntimeDebugAction is a runtime debug menu system for Unity that lets you register and trigger debug actions with no extra setup. With a set of built-in debug actions and a tiny logger that works out of the box, RDA is built to supercharge your mobile and desktop game development.
 
-![](https://bennykok.github.io/runtime-debug-action-docs/images/2020-12-14-11-20-22.png)
+## Input
+Cross platform input support
+- Desktop
+- [Mobile](https://bennykok.github.io/runtime-debug-action-docs/manuals/testing-with-mobile.html)
+- [VR (InputSystem)](https://bennykok.github.io/runtime-debug-action-docs/manuals/VR/index.html)
+
+https://user-images.githubusercontent.com/18395202/127760553-2fe09c74-c6da-4ebd-af84-2cf162acec17.mp4
 
 ## Links
 
-[Preview1](https://twitter.com/BennyKokMusic/status/1405039828337455116) | [Preview2](https://twitter.com/BennyKokMusic/status/1316547829817466880) | [Documentation](https://bennykok.github.io/runtime-debug-action-docs/manuals/QuickStart/index.html) | [Discord](https://discord.gg/fHGsArj) 
+[Twitter](https://twitter.com/BennyKokMusic/status/1316547829817466880) | [Documentation](https://bennykok.github.io/runtime-debug-action-docs/manuals/QuickStart/index.html) | [Discord](https://discord.gg/fHGsArj) 
 
 ## Install
 
