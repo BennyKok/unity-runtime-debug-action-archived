@@ -22,6 +22,20 @@ You can also choose to add this as a submodule in your package folder.
 git submodule add https://github.com/BennyKok/unity-runtime-debug-action.git Packages\unity-runtime-debug-action
 ```
 
+## Examples
+
+With RDA, you can add action via [code](https://bennykok.github.io/runtime-debug-action-docs/manuals/CustomActions/fluent-api.html), [component](https://bennykok.github.io/runtime-debug-action-docs/manuals/CustomActions/debug-action-component.html), [reflection](https://bennykok.github.io/runtime-debug-action-docs/manuals/CustomActions/attribute-reflection.html)
+
+Here's a glimpse of adding via code.
+
+```csharp
+RuntimeDebugSystem.RegisterActions(
+    DebugActionBuilder.Button()
+        .WithName("Your actions")
+        .WithAction(()=>{ });
+);
+```
+
 ## Explore
 Feel free to check me out!! :)
 
