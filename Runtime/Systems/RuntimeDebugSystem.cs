@@ -30,6 +30,9 @@ namespace BennyKok.RuntimeDebug.Systems
                 if (!settings)
                 {
                     Debug.LogWarning("RuntimeDebugSetting not found! RuntimeDebugSystem will be disabled.");
+#if UNITY_EDITOR
+                    SettingsLoader.CheckSettings();
+#endif
                 }
                 else if (settings.IsSystemEnabled())
                 {

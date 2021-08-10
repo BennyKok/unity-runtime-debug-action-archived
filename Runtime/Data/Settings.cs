@@ -223,9 +223,14 @@ namespace BennyKok.RuntimeDebug.Data
             {
                 EditorApplication.update -= CheckForSettings;
 
-                if (!File.Exists(Settings.settingsPath))
-                    RuntimeDebugSettingsRegister.GetOrCreateSettings();
+                CheckSettings();
             }
+        }
+
+        public static void CheckSettings()
+        {
+            if (!File.Exists(Settings.settingsPath))
+                RuntimeDebugSettingsRegister.GetOrCreateSettings();
         }
     }
 
