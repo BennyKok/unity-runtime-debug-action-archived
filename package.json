@@ -6,11 +6,5 @@
   "author": "BennyKok",
   "dependencies": {
     "com.unity.textmeshpro": "3.0.1"
-  },
-  "samples": [
-    {
-      "displayName": "Dashu Cube",
-      "path": "Samples~/Dashsu Cube"
-    }
-  ]
+  }
 }
